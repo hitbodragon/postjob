@@ -1,0 +1,9 @@
+MESSAGE_NAME_JOB_ERROR, Chưa nhập tên công việc
+MESSAGE_COMPANY_ERROR, Chưa nhập công ty tuyển
+MESSAGE_BRANCH_ERROR, Chưa chọn chi nhánh
+MESSAGE_SALARY_ERROR, Chưa nhập lương
+MESSAGE_DESCRIBE_JOB_ERROR, Chưa nhập mô tả công việc
+MESSAGE_REQUEST_CANDIDATE_ERROR, Chưa nhập yêu cầu ứng viên
+MESSAGE_QUANTITY_CANDIDATE_ERROR, Chưa nhập số lượng ứng viên
+MESSAGE_DATE_END_ERROR, Chưa nhập hạn nộp hồ sơ
+MESSAGE_NAME_JOB_ERROR,Vui lòng nhập tên công việc

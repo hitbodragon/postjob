@@ -1,0 +1,60 @@
+/* Căn giữa các nội dung của container */
+.gigs .container {
+    margin: 80px auto; /* Căn giữa container và thêm margin */
+    width: 80%; /* Giới hạn độ rộng của container */
+    max-width: 1200px; /* Giới hạn độ rộng tối đa */
+}
+
+/* Điều chỉnh padding cho hàng */
+.row {
+    padding: 3px;
+    align-items: center; /* Đảm bảo các cột trong hàng được căn giữa theo chiều dọc */
+    display: flex; 
+    justify-content: space-between; 
+}
+
+/* Căn giữa nội dung trong cột */
+.row .col {
+    text-align: center; /* Căn giữa nội dung trong cột theo chiều ngang */
+    vertical-align: middle; /* Đảm bảo căn giữa nội dung theo chiều dọc */
+}
+
+/* Khoảng cách giữa các nút */
+.btnEdit_Update {
+    padding: 5px 10px;
+    margin: 0 5px; /* Thêm khoảng cách giữa các nút */
+}
+
+/* Căn giữa các phần tử trong các card */
+.card {
+    width: 100%;
+    margin: 20px 0; /* Thêm margin cho card */
+}
+
+/* Style cho các button */
+.btnConfirm {
+    border: none;
+    background-color: #1dbf73;
+    color: #fff;
+}
+
+.btnDelivery {
+    border: none;
+    background-color: #b4bf1d;
+    color: #fff;
+}
+
+.btnCancel {
+    border: none;
+    background-color: #ff0515;
+    color: #fff;
+}
+
+/* Hover effect for buttons */
+.btnConfirm:hover,
+.btnDelivery:hover,
+.btnCancel:hover {
+    background-color: azure;
+    color: gray;
+    border: 1px solid gray;
+}
